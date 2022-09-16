@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
+<body>
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" style="color: white; font-size: 15px"
@@ -32,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">主頁/Home </a>
+            <a class="nav-link" href="./main.html">主頁/Home </a>
           </li>
 
           <li class="nav-item dropdown">
@@ -117,7 +118,7 @@
 
 
 <div class="contactform1">
-        <form action="" method="get">
+        <form action="https://formsubmit.co/unavecdeux@gmail.com" method="POST">>
             <label for="myname">您的姓名/Your name</label>
             <input minlength="2" maxlength="20" id="myname" type="text" name="UserNameInput" required>
            
@@ -204,6 +205,19 @@
 </div>
 
 
-       
-  </body>
+  <script src=" https://smtpjs.com/v3/smtp.js"></script>     
+<script>function sendEmail(){
+  Email.send({
+Host:"smtp.gmail.com",
+Username : "unavecdeux@gmail.com",
+Password : "reignterminalnorival",
+to : 'pcleegood@gmail.com',
+From : document.getElementById("email").value,
+Subject:"new feed",
+Body :"And this is the body"})
+.then(
+  message=>alert(提交成功));
+  }</script>  
+
+</body>
 </html>

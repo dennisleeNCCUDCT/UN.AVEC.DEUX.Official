@@ -8365,7 +8365,7 @@ a.text-dark:hover {
 .finalfooter {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .facebook:hover {
@@ -8403,4 +8403,28 @@ a.text-dark:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.hollow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hollowvideo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.maq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
