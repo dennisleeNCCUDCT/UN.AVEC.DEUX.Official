@@ -9,7 +9,7 @@
 
 .testcontainer {
   width: 70%;
-  height: 100%;
+  height: 70%;
   display: flex;
 
   top: 0;
@@ -25,6 +25,8 @@
 }
 
 .glitch-image {
+  width: 70%;
+  height: 70%;
   position: absolute;
   top: 0;
   bottom: 0;
