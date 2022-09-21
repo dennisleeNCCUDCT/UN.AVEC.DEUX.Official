@@ -9,7 +9,7 @@
 
 .testcontainer {
   width: 70%;
-  height: 70%;
+  height: 100%;
   display: flex;
   margin-top: 500px;
   top: 0;
