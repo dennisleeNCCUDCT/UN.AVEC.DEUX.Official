@@ -8443,6 +8443,12 @@ a.text-dark:hover {
 }
 
 .newestshow {
+  max-width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
+}
+.showimg {
+  max-width: 100%;
+  height: auto;
 }
