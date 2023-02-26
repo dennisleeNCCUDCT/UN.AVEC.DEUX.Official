@@ -8449,6 +8449,6 @@ a.text-dark:hover {
   justify-content: center;
 }
 .showimg {
-  max-width: 100%;
+  width: 300px;
   height: auto;
 }
