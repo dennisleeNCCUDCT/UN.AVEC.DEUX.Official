@@ -8441,3 +8441,8 @@ a.text-dark:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.newestshow {
+  display: flex;
+  justify-content: center;
+}
